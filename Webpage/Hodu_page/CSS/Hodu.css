@@ -70,3 +70,54 @@ button {
     font-weight: 700; */
     font-size: 16px;
 }
+
+.top h2 {
+    position: absolute;
+    width: 737px;
+    height: 120px;
+    top: 302px;
+    left: 320px;
+    /* font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700; */
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.top p {
+    position: absolute;
+    width: 439px;
+    height: 86px;
+    top: 464px;  
+    left: 320px;
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.maindownload {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    top: 590px;
+    left: 320px;
+    background: #D97652;
+    border: 0;
+    border-radius: 40px;
+    position: absolute;
+    color: white;
+    /* font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700; */
+    font-size: 16px;
+}
+
+.center {
+    position: absolute;
+    width: 415px;
+    height: 766px;
+    top: 136px;
+    left: 1185px;
+}
