@@ -90,9 +90,9 @@ button {
     height: 86px;
     top: 464px;  
     left: 320px;
-    font-family: 'Spoqa Han Sans Neo';
+    /* font-family: 'Spoqa Han Sans Neo';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400; */
     font-size: 16px;
     line-height: normal;
 }
