@@ -11,3 +11,6 @@
 
 7월 15일
 - HTML 전체적인 코드 작성 및 CSS 일부 작업(Header, Top화면)
+
+7월 16일
+- CSS 일부 작업(middle 화면)
