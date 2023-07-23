@@ -190,9 +190,10 @@ button {
 }
 
 .card > img {
+    display: flex;
+    justify-content: center;
     width: 378px;
     height: 378px;
-    margin-top: 820px;
     border-radius: 30px;
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
 }
