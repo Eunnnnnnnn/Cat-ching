@@ -1,5 +1,7 @@
-# FrontEnd_Study
-FrontEnd_실습 및 공부 정리
+# Cat-ching
+
+## 프로젝트 소개
+Cat-ching은 고양이 사진 및 영상을 공유하고, 고양이 물품을 살 수 있는 SNS 플랫폼입니다.
 
 ### commit 컨벤션
 
