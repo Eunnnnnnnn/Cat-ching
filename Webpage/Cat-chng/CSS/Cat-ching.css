@@ -8,13 +8,13 @@ section {
     margin: 0;
 }
 
-/* body {
+body {
     position: absolute; - 아직 고정시키지 않기 위해 주석처리함 
     width: 1920px;
     height: 900px;
     left: 0px;
     top: 2px;
-} */
+}
 
 .top {
     width: 1920px;
