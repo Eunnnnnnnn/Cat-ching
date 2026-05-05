@@ -1,0 +1,304 @@
+*,
+html,
+body,
+h1,
+header,
+section {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: absolute; - 아직 고정시키지 않기 위해 주석처리함 
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: 2px;
+}
+
+.top {
+    width: 1920px;
+    height: 900px;
+    background: #F2E9D8;
+}
+
+header {
+    /* ul태그의 배치를 위해서 position: absolute;를 삭제하고 flex를 주고 margin top으로 정렬을 완성함/ 왜 이렇게 된 건지는 공부 필요함 */
+    display: flex;
+    align-content: center; 
+    width: 1920px;
+    height: 102px;
+    left: 0px;
+    background: #F2E9D8;
+}
+
+.nav {
+    width: 130px;
+    height: 40px;
+    margin-top: 31px;
+    margin-left: 320px;
+}
+
+/*list의 점 안보이게 하기 위해 작성한 코드*/
+li {
+    list-style: none;
+}
+
+/*li 위아래가 아닌 좌우로 보이기 하기 위해 작성한 코드*/
+.top ul {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /*justify-content를 이용해서 좌우로 나타나도록 작성함*/
+    gap: 30px;
+    margin-left: 1206px;
+    margin-top: 41px;
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    background: #D97652;
+    border: 0;
+    border-radius: 40px;
+    color: white;
+    /* font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700; */
+    font-size: 16px;
+}
+
+.download {
+    position: absolute;
+    left: 1460px;
+    top: 26px;
+}
+
+.top h2 {
+    position: absolute;
+    width: 737px;
+    height: 120px;
+    top: 302px;
+    left: 320px;
+    /* font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700; */
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.top p {
+    position: absolute;
+    width: 439px;
+    height: 86px;
+    top: 464px;  
+    left: 320px;
+    /* font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 400; */
+    font-size: 16px;
+    line-height: normal;
+}
+
+.maindownload {
+    position: absolute;
+    top: 590px;
+    left: 320px;
+}
+
+.center {
+    position: absolute;
+    width: 415px;
+    height: 766px;
+    top: 136px;
+    left: 1185px;
+}
+
+.middle > img {
+    position: absolute;
+    width: 660px;
+    height: 390px;
+    margin-top: 80px;
+    margin-left: 320px;
+    border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.middle h2 {
+    position: absolute;
+    width: 510px;
+    height: 135px;
+    margin-top: 172px;
+    margin-left: 1090px;
+    /* font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: 700; */
+    font-size: 36px;
+    line-height: normal;
+}
+
+.middle p {
+    position: absolute;
+    width: 510px;
+    height: 40px;
+    margin-top: 337px;
+    margin-left: 1090px;
+    /* font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    letter-spacing: 0em; */
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.emphasis {
+    position: absolute;
+    width: 929px;
+    height: 60px;
+    margin-top: 590px;
+    margin-left: 496px;
+    color: #D97652;
+    text-align: center;
+    /* font-family: Spoqa Han Sans Neo;
+    font-style: normal;
+    font-weight: 700; */
+    font-size: 48px;
+    line-height: normal;
+}
+
+.card {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #D97652;
+}
+
+.card p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .learn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #D97652;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263140;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 60px auto;
+    width: 80%;
+}
+
+.subscribe div {
+    max-width: 60%;
+}
+
+.subscribe h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.subscribe p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.subscribe form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #D97652;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bottom {
+    position: relative;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.bottom img {
+    width: 100%;
+    height: 340px;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+.bottom button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+footer {
+    width: 1280px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 320px 0px 320px;
+}
+
+footer img{
+    width: 226px;
+    height: 70px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 42px;
+    height: 42px;
+    gap: 20px;
+}
+
+
